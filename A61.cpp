@@ -32,6 +32,6 @@ void printPrime(int begin, int end) {
       if (p % i == 0)
         break;
     if (i > (p / 2))
-      cout << " Prime number : " << p <<" ";
+      cout << " Prime number : " << p ;
   }
 }
